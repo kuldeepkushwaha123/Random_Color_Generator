@@ -1,0 +1,76 @@
+#main{
+    font-family: 'Crimson Text',serif;
+
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: blue,yellow;*/
+     background:linear-gradient(to right,skyblue);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+h1,h2 {
+    font-size:3.5rem;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#code {
+    width: 580px;
+    margin-top: 50px;
+    margin-left: 312px;
+    background-color: black;
+    color: skyblue;
+    height: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    color: white;
+    width: auto;
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+}
+footer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
